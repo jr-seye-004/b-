@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+.header{
+    background-color: #151518;
+    color: #fff;
+}
+.jr-navbar{
+    background-color:rgb(151, 114, 114);
+    font-family: 'Merriweather';
+    box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.54);
+    z-index: 99;
+}
+
+.jr-navbar .nav-link{
+    border-bottom: 1px solid transparent;
+    
+    
+}
+
+.jr-navbar .nav-link:hover{
+    padding-bottom: 20px;
+    border-bottom-color: var(--bs-teal);
+}
+
+
+.banner{
+    background: linear-gradient(rgb(32, 30, 30), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(/jrcss/Le\ classement\ des\ plats\ dont\ les\ Français\ raffolent.jpeg) center center fixed no-repeat;
+    background-size: cover;
+    height: 750px ;
+}
+
+.banner .banner-desc{
+    font-size: 48px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.btn-order{
+    color: var(--bs-teal);
+    border-color: var(--bs-teal);
+    transition: 0.5s;
+}
+.btn-order:hover,
+.btn-order:active{
+    color: #fff;
+    background-color: var(--bs-teal);
+}
